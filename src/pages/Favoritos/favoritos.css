@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+.container span {
+    color: white;
+    margin-top: 100px;
+    font-size: 24px;
+}
+
+.lista-filmes {
+    width: 100%;
+}
+
+.lista-filmes article {
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+}
+
+.lista-filmes article .background-shadow {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right top, #000000, #00000000) !important;
+}
+
+.lista-filmes article  .background-shadow .content-text {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-left;
+    color: white;
+    font-size: 28px;
+    text-shadow: 0px 3px 5px #00000085;
+    margin-left: 15px;
+}
+
+.lista-filmes article  .background-shadow .content-text a,
+.lista-filmes article  .background-shadow .content-text button {
+    margin-top: 10px;
+    cursor: pointer;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    background: #ffffff20;
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px #00000075;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transform: .5s ease all;
+    border: none;
+}
+
+.lista-filmes article  .background-shadow .content-text a:hover,
+.lista-filmes article  .background-shadow .content-text button:hover {
+    background: #ffffff30;
+}

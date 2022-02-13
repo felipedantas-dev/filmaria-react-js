@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filme-info {
+    margin-top: 100px;
+    width: 100%;
+    color: white;
+}
+
+.filme-info .image {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: .5s ease all;
+}
+
+.filme-info .image:hover {
+    filter: brightness(1.3);
+}
+
+.filme-info .text {
+    padding: 20px;
+}
+
+.filme-info h1 {
+    font-size: 32px;
+}
+
+.filme-info .botoes {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    width: calc(100%-40px);
+    align-items: center;
+}
+
+.filme-info .botoes button {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.082);
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.filme-info .botoes button:hover {
+    background-color: #ffffff2c;
+}
+
+.filme-info .botoes button:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.filme-info .botoes button:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.filme-info .botoes button a {
+    text-decoration: none;
+    color: white;
+}
